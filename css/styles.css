@@ -1,0 +1,116 @@
+/* Existing CSS code */
+
+body {
+  background-image: url("../images/flowers.jpeg");
+}
+
+nav {
+  background-color: #FF69B4;
+  font: Helvetica;
+  text-align: center;
+  padding: 1rem 0;
+  text-shadow: 4px 4px #000000;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Styling main */
+#main {
+  margin: 30px;
+}
+
+h1, h2, p {
+  color: black; /* Set content color to black */
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styling footer */
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  clear: both;
+}
+
+/* New styles with floats/positions */
+.float-left {
+  float: left;
+  margin-right: 20px; /* Example margin for spacing */
+}
+
+.float-right {
+  float: right;
+  margin-left: 20px; /* Example margin for spacing */
+}
+
+.position-relative {
+  position: relative;
+  top: 20px; /* Example top offset */
+  left: 30px; /* Example left offset */
+}
+
+.position-absolute {
+  position: absolute;
+  top: 50px; /* Example top position */
+  right: 0; /* Example right position */
+}
+
