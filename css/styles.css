@@ -1,5 +1,7 @@
 /* Existing CSS code */
 
+/* Default styles for all screen sizes */
+
 body {
   background-image: url("../images/flowers.jpeg");
 }
@@ -94,27 +96,89 @@ img {
 /* New styles with floats/positions */
 .float-left {
   float: left;
-  margin-right: 20px; /* Example margin for spacing */
+  margin-right: 20px; 
 }
 
 .float-right {
   float: right;
-  margin-left: 20px; /* Example margin for spacing */
+  margin-left: 20px;
 }
 
 .position-relative {
   position: relative;
-  top: 20px; /* Example top offset */
-  left: 30px; /* Example left offset */
+  top: 20px; 
+  left: 30px; 
 }
 
 .position-absolute {
   position: absolute;
-  top: 50px; /* Example top position */
-  right: 0; /* Example right position */
+  top: 50px; 
+  right: 0;
 }
 
 gmp-map {
   height: 100%;
+}
+
+/* Media query for mid-width devices (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px; 
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column; 
+  }
+
+  nav li {
+    margin-bottom: 5px; 
+  }
+
+  #Introduction {
+    padding: 20px; 
+  }
+
+  #paragraph {
+    padding: 20px; 
+  }
+
+  div[id^="Car-"] {
+    padding: 20px; 
+  }
+}
+
+/* Media query for smaller mobile devices (e.g., smartphones) */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px; 
+  }
+
+  header {
+    padding: 5px; 
+  }
+
+  nav ul {
+    font-size: 12px; 
+  }
+
+  nav li {
+    margin-bottom: 3px; 
+  }
+
+  #Introduction {
+    padding: 10px; 
+  }
+
+  #paragraph {
+    padding: 10px; 
+  }
+
+  div[id^="Car-"] {
+    padding: 10px; 
+  }
 }
 
